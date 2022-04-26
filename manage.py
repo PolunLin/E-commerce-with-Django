@@ -5,6 +5,15 @@ import sys
 
 
 def main():
+    PROJECT_ROOT = os.path.dirname(os.path.realpath(__file__))
+    site_packages = os.path.join(PROJECT_ROOT, 'libs')
+    if site_packages not in sys.path:
+        sys.path.insert(0, site_packages)
+    sys.path.append(os.path.abspath(os.path.dirname(__file__)))
+    sys.path.append('..')
+
+    import dotenv
+    dotenv.load_dotenv(os.path.join(os.path.dirname(PROJECT_ROOT), '.env'), True)
     """Run administrative tasks."""
     os.environ.setdefault('DJANGO_SETTINGS_MODULE', 'ecommerce.settings')
     try:
