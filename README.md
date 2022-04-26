@@ -1,9 +1,32 @@
 # E-commerce with Django
-This project with developing a E-commerce Website. It provides the user with a list of the various products available for purchase in the store. For the convenience of online shopping, a shopping cart is provided to the user. After the selection of the goods, it is sent for the order confirmation process. The system is implemented using Python's web framework Django.
+## About
+This project with developing a E-commerce Website. It provides the user with a list of the various products available for purchase in the store.  The system is implemented using Python's web framework Django, Docker, Wsgi, Nginx and Sqlite.
 
-1. Clone this repository into a folder on your computer
-2. Download Python
-3. Open terminal inside the folder with code.
-4. Type pip install -r requirements.txt in the terminal window to install all the requirements to run the app.
-5. Type python manage.py runserver to start a localhost server for the app.
-6. The API is started and now you can use the API routes to give requests.
+
+
+
+## Table of contents
+
+- [E-commerce with Django](#e-commerce-with-django)
+  - [About](#about)
+  - [Table of contents](#table-of-contents)
+  - [Installation](#installation)
+  - [Usage](#usage)
+  - [Resources (Documentation and other links)](#resources-documentation-and-other-links)
+  - [Contributing / Reporting issues](#contributing--reporting-issues)
+  - [License](#license)
+## Installation
+
+```
+pip install -r requirments.txt
+
+```
+
+## Usage
+
+## Resources (Documentation and other links)
+
+## Contributing / Reporting issues
+
+## License
+
